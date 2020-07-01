@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import get from 'lodash/get';
-import Hero from '../components/hero';
+import Banner from '../components/banner';
 import Layout from '../components/layout';
 
 const RootIndex = (props: any) => {
@@ -9,7 +9,7 @@ const RootIndex = (props: any) => {
   return (
     <Layout>
       <div style={{ background: '#fff' }}>
-        <Hero data={person.node} />
+        <Banner data={person.node} />
       </div>
     </Layout>
   );

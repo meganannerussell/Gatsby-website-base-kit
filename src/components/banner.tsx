@@ -1,8 +1,8 @@
 import React from 'react';
 import Img from 'gatsby-image';
-import styles from './hero.module.css';
+import styles from './banner.module.css';
 
-const Hero = ({ data }: { data: any }) => (
+const Banner = ({ data }: { data: any }) => (
   <div className={styles.hero}>
     <Img
       className={styles.heroImage}
@@ -17,4 +17,4 @@ const Hero = ({ data }: { data: any }) => (
   </div>
 );
 
-export default Hero;
+export default Banner;
